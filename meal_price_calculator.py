@@ -1,3 +1,4 @@
+# Additional code to calculate the total price of a meal including drinks, appetizers, and check for insufficient payment.
 # Prompt the user for the price of a meal
 child_meal = float(input("What is the price of a child's meal? "))
 adult_meal = float(input("What is the price of an adult's meal? "))
