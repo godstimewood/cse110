@@ -29,6 +29,10 @@ for attempt in range(1, max_attempts + 1):
     
     if guess == secret_word:
         print(f"Congratulations! You guessed the word '{secret_word}' correctly.")
+        if attempt == 1:
+            print(f"It took you {attempt} guess.")
+        else:
+            print(f"It took you {attempt} guesses.")
         break
 else:
     print(f"Sorry, you've used all attempts. The secret word was '{secret_word}'.")
